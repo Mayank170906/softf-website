@@ -1,0 +1,22 @@
+{
+  "name": "SoftF.Tech Tools",
+  "short_name": "SoftF.Tech",
+  "start_url": "/index.html",
+  "description": "Free, privacy-focused developer and PDF tools.",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1e1e1e",
+  "background_color": "#121212",
+  "display": "standalone"
+}
