@@ -367,8 +367,62 @@
     </div>
 </footer>
 
-<script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "AboutPage",
+      "@id": "https://softf.tech/about.html#webpage",
+      "url": "https://softf.tech/about.html",
+      "name": "About SoftF.Tech",
+      "description": "Learn about SoftF.Tech, its mission, and its privacy-focused browser-based tools that run locally without uploads or tracking.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://softf.tech/#website"
+      },
+      "mainEntity": {
+        "@id": "https://softf.tech/#organization"
+      }
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://softf.tech/#website",
+      "url": "https://softf.tech/",
+      "name": "SoftF.Tech",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://softf.tech/#organization"
+      }
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://softf.tech/#organization",
+      "name": "SoftF.Tech",
+      "url": "https://softf.tech/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://softf.tech/android-chrome-512x512.png"
+      },
+      "description": "SoftF.Tech builds privacy-focused browser tools that process files locally on the user’s device without uploads, accounts, or tracking.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "url": "https://softf.tech/contact.html",
+        "email": "contact@softf.tech",
+        "availableLanguage": ["en"]
+      },
+      "sameAs": [
+        "https://github.com/Mayank170906",
+        "https://www.linkedin.com/in/mayank170906/"
+      ]
+    }
+
+  ]
+}
 </script>
 
 </body>
