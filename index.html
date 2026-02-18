@@ -226,20 +226,46 @@
 
 </header>
 <main class="max-w-7xl mx-auto px-6">
-
   <!-- Hero Section -->
-  <section class="grid md:grid-cols-2 gap-12 items-center py-24">
+<section class="py-32 max-w-[1400px] mx-auto px-4 flex flex-col items-center justify-center text-center space-y-8">
 
-  <!-- Left -->
-  <div class="space-y-6">
+  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-base-200 border border-base-300 text-sm font-bold tracking-wide shadow-sm">
+    <span class="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
+    100% Private & Local Processing
+  </div>
 
-    <h1 class="text-4xl md:text-6xl font-black leading-tight">
+  <h1 class="text-5xl md:text-7xl font-black leading-tight max-w-4xl tracking-tight">
+    Everyday Utilities, <br />
+    <span class="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+      Zero Compromises.
+    </span>
+  </h1>
+
+  <p class="text-lg md:text-xl opacity-80 max-w-2xl leading-relaxed">
+    A complete ecosystem of professional browser-based tools and hardware diagnostics. No installations, no server uploads, and absolute privacy.
+  </p>
+
+  <div class="flex flex-col sm:flex-row gap-4 pt-4">
+    <a href="#tools" class="btn btn-primary btn-lg rounded-full px-8 hover:scale-105 transition-all shadow-lg shadow-primary/20">
+      Explore Web Tools
+    </a>
+    <a href="#tests" class="btn btn-outline btn-lg rounded-full px-8 hover:scale-105 transition-all">
+      Run Hardware Tests
+    </a>
+  </div>
+
+</section>
+<!--    sub-domain-->
+<!--tools-->
+  <section id="tools" class="grid lg:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
+
+  <div class="space-y-6 pr-4">
+    <h2 class="text-4xl md:text-6xl font-black leading-tight">
       Free Online Tools for
-      <span class="bg-gradient-to-r from-primary to-secondary
-                   bg-clip-text text-transparent">
+      <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
         Everyday Work
       </span>
-    </h1>
+    </h2>
 
     <p class="text-lg opacity-80 max-w-xl">
       A complete collection of private, browser-based tools to edit PDFs,
@@ -248,67 +274,136 @@
     </p>
 
     <a href="https://tools.softf.tech"
-       class="btn btn-primary btn-lg rounded-full
-              hover:scale-110 transition-all shadow-lg">
+       class="btn btn-primary btn-lg rounded-full hover:scale-110 transition-all shadow-lg">
       Open Tools 🚀
     </a>
 
-    <p class="text-sm opacity-60">
+    <p class="text-sm opacity-60 font-medium tracking-wide">
       PDF • Image • Developer • Text tools
     </p>
   </div>
 
-  <!-- Right -->
-  <div class="relative">
-    <div class="absolute -inset-2 bg-gradient-to-r
-                from-primary/30 to-secondary/30
-                blur-2xl rounded-3xl"></div>
+  <div class="relative w-full ml-auto">
+    <div class="absolute -inset-2 bg-gradient-to-r from-primary/30 to-secondary/30 blur-2xl rounded-3xl"></div>
 
-    <div class="relative bg-base-100/80 backdrop-blur-xl
-                border border-white/20 rounded-3xl shadow-xl p-8">
+    <div class="relative overflow-x-auto bg-base-100 rounded-3xl shadow-2xl border border-base-300">
+      <table class="table table-zebra table-sm md:table-md w-full text-center">
 
-      <h3 class="text-xl font-bold mb-4">Popular Tools</h3>
+        <thead>
+          <tr class="bg-base-200 text-base-content">
+            <th colspan="4" class="py-4 text-xl font-black border-b border-base-300">
+              tools.<span class="text-primary">softf</span>.tech
+            </th>
+          </tr>
+          <tr class="bg-base-200/50 text-base-content uppercase tracking-wider text-xs">
+            <th class="w-1/4">PDF</th>
+            <th class="w-1/4">Image</th>
+            <th class="w-1/4">Dev</th>
+            <th class="w-1/4">Text</th>
+          </tr>
+        </thead>
 
-      <ul class="space-y-3 text-sm">
-        <li>Image to PDF</li>
-        <li>Merge & Split PDF</li>
-        <li>Image Compressor</li>
-        <li>JSON Formatter</li>
-        <li>QR Generator</li>
-      </ul>
+        <tbody class="text-sm">
+
+          <tr class="hover">
+            <td><a href="https://tools.softf.tech/pdf/image-to-pdf/" class="link link-hover hover:text-primary">Image to PDF</a></td>
+            <td><a href="https://tools.softf.tech/image/compress/" class="link link-hover hover:text-secondary">Compress</a></td>
+            <td><a href="https://tools.softf.tech/dev/json/" class="link link-hover hover:text-accent">JSON</a></td>
+            <td><a href="https://tools.softf.tech/text/hash/" class="link link-hover hover:text-info">Hash Gen</a></td>
+          </tr>
+
+          <tr class="hover">
+            <td><a href="https://tools.softf.tech/pdf/merge/" class="link link-hover hover:text-primary">Merge</a></td>
+            <td><a href="https://tools.softf.tech/image/convert/" class="link link-hover hover:text-secondary">Convert</a></td>
+            <td><a href="https://tools.softf.tech/dev/json-ld/" class="link link-hover hover:text-accent">JSON-LD</a></td>
+            <td><a href="https://tools.softf.tech/text/password/" class="link link-hover hover:text-info">Password Gen</a></td>
+          </tr>
+
+          <tr class="hover">
+            <td><a href="https://tools.softf.tech/pdf/split/" class="link link-hover hover:text-primary">Split</a></td>
+            <td><a href="https://tools.softf.tech/image/resize/" class="link link-hover hover:text-secondary">Resize</a></td>
+            <td><a href="https://tools.softf.tech/dev/qr/" class="link link-hover hover:text-accent">QR Gen</a></td>
+            <td><a href="https://tools.softf.tech/text/markdown/" class="link link-hover hover:text-info">Markdown</a></td>
+          </tr>
+
+          <tr class="hover">
+            <td><a href="https://tools.softf.tech/pdf/rotate/" class="link link-hover hover:text-primary">Rotate</a></td>
+            <td><a href="https://tools.softf.tech/image/crop/" class="link link-hover hover:text-secondary">Crop</a></td>
+            <td><a href="https://tools.softf.tech/dev/qr-scan/" class="link link-hover hover:text-accent">QR Scan</a></td>
+            <td><a href="https://tools.softf.tech/text/counter/" class="link link-hover hover:text-info">Word Count</a></td>
+          </tr>
+
+          <tr class="hover">
+            <td><a href="https://tools.softf.tech/pdf/metadata/" class="link link-hover hover:text-primary">Metadata</a></td>
+            <td><a href="https://tools.softf.tech/image/exif/" class="link link-hover hover:text-secondary">EXIF</a></td>
+            <td><a href="https://tools.softf.tech/dev/base64/" class="link link-hover hover:text-accent">Base64</a></td>
+            <td><a href="https://tools.softf.tech/text/case/" class="link link-hover hover:text-info">Case Change</a></td>
+          </tr>
+
+          <tr class="hover">
+            <td><a href="https://tools.softf.tech/pdf/watermark/" class="link link-hover hover:text-primary">Watermark</a></td>
+            <td><a href="https://tools.softf.tech/image/color-picker/" class="link link-hover hover:text-secondary">Color Picker</a></td>
+            <td><a href="https://tools.softf.tech/dev/url/" class="link link-hover hover:text-accent">URL Encode</a></td>
+            <td><a href="https://tools.softf.tech/dev/css-minify/" class="link link-hover hover:text-info">CSS Minify</a></td>
+          </tr>
+
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
-  <section class="grid md:grid-cols-2 gap-12 items-center py-24">
+<!--test-->
+  <section id="tests" class="grid md:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
 
-  <!-- Left -->
-  <div class="relative order-2 md:order-1">
-    <div class="absolute -inset-2 bg-gradient-to-r
-                from-accent/30 to-primary/30
-                blur-2xl rounded-3xl"></div>
+  <div class="relative order-2 md:order-1 w-full max-w-md md:mr-auto">
+    <div class="absolute -inset-2 bg-gradient-to-r from-accent/30 to-primary/30 blur-2xl rounded-3xl"></div>
 
-    <div class="relative bg-base-100/80 backdrop-blur-xl
-                border border-white/20 rounded-3xl shadow-xl p-8">
+    <div class="relative bg-base-100/80 backdrop-blur-xl border border-white/20 rounded-3xl shadow-xl p-8">
 
-      <h3 class="text-xl font-bold mb-4">Hardware & Network Tests</h3>
+      <h3 class="text-2xl font-black mb-6 border-b border-base-300 pb-4">
+        test.<span class="text-accent">softf</span>.tech
+      </h3>
 
-      <ul class="space-y-3 text-sm">
-        <li>Keyboard Test</li>
-        <li>Mouse Test</li>
-        <li>Display Test</li>
-        <li>Speaker Test</li>
-        <li>Network Speed Test</li>
-      </ul>
+      <div class="grid grid-cols-1 gap-3">
+        <a href="https://test.softf.tech/keyboard-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+          <span>Keyboard Test</span>
+          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+        </a>
+
+        <a href="https://test.softf.tech/mouse-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+          <span>Mouse Test</span>
+          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+        </a>
+
+        <a href="https://test.softf.tech/display-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+          <span>Display / Dead Pixel Test</span>
+          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+        </a>
+
+        <a href="https://test.softf.tech/speaker-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+          <span>Speaker Test</span>
+          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+        </a>
+
+        <a href="https://test.softf.tech/speed-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+          <span>Internet Speed Test</span>
+          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+        </a>
+
+        <a href="https://test.softf.tech/ip-lookup/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+          <span>IP Address Lookup</span>
+          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+        </a>
+      </div>
+
     </div>
   </div>
 
-  <!-- Right -->
-  <div class="space-y-6 order-1 md:order-2">
+  <div class="space-y-6 order-1 md:order-2 pl-4">
 
     <h2 class="text-4xl md:text-5xl font-black leading-tight">
       Lightweight
-      <span class="bg-gradient-to-r from-accent to-primary
-                   bg-clip-text text-transparent">
+      <span class="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
         Test Bench
       </span>
     </h2>
@@ -319,15 +414,15 @@
     </p>
 
     <a href="https://test.softf.tech"
-       class="btn btn-outline btn-lg rounded-full
-              hover:scale-105 transition-all">
+       class="btn btn-outline border-accent text-accent hover:bg-accent hover:border-accent hover:text-accent-content btn-lg rounded-full hover:scale-105 transition-all">
       Open Test Bench
     </a>
 
-    <p class="text-sm opacity-60">
+    <p class="text-sm opacity-60 font-medium tracking-wide">
       Hardware • Network • Diagnostics
     </p>
   </div>
+
 </section>
 
   <!-- Features Section -->
