@@ -1,550 +1,734 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>softf.tech | Private & Free Online Browser Tools</title>
-  <meta name="title" content="softf.tech | Private & Free Online Browser Tools">
-  <meta name="description" content="A complete collection of private, browser-based tools to edit PDFs, compress images, and test hardware. Everything runs locally — no uploads, no tracking.">
-  <meta name="keywords" content="free online tools, browser tools, private pdf editor, image compressor, hardware test, keyboard tester, softf tech">
-  <meta name="author" content="softf.tech">
-  <link rel="canonical" href="https://softf.tech/">
+    <title>SoftF.Tech | Privacy-First Technical Solutions & Project Services</title>
+    <meta name="title" content="SoftF.Tech | Privacy-First Technical Solutions & Project Services">
+    <meta name="description"
+          content="A technical ecosystem featuring privacy-focused browser tools, hardware testing suites, and a comprehensive portal for academic and professional software projects.">
+    <meta name="keywords"
+          content="free online tools, browser tools, private pdf editor, image compressor, hardware test, keyboard tester, softf tech">
+    <meta name="author" content="softf.tech">
+    <link rel="canonical" href="https://softf.tech/">
 
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://softf.tech/">
-  <meta property="og:title" content="softf.tech | 100% Private Online Tools">
-  <meta property="og:description" content="Edit PDFs, compress images, and test hardware privately in your browser. No servers, no waiting, no data collection.">
-  <meta property="og:image" content="https://softf.tech/og-image.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://softf.tech/">
+    <meta property="og:title" content="softf.tech | 100% Private Online Tools">
+    <meta property="og:description"
+          content="Edit PDFs, compress images, and test hardware privately in your browser. No servers, no waiting, no data collection.">
+    <meta property="og:image" content="https://softf.tech/og-image.png">
 
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://softf.tech/">
-  <meta property="twitter:title" content="softf.tech | 100% Private Online Tools">
-  <meta property="twitter:description" content="Browser-based tools for everyday work. Everything runs locally—no data sent to servers.">
-  <meta property="twitter:image" content="https://softf.tech/og-image.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://softf.tech/">
+    <meta property="twitter:title" content="softf.tech | 100% Private Online Tools">
+    <meta property="twitter:description"
+          content="Browser-based tools for everyday work. Everything runs locally—no data sent to servers.">
+    <meta property="twitter:image" content="https://softf.tech/og-image.png">
 
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#0f172a">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512">
 
-  <link rel="stylesheet" href="/src/output.css">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://softf.tech/#website",
-      "url": "https://softf.tech/",
-      "name": "SoftF.Tech",
-      "description": "Privacy-focused browser-based tools that run locally on your device. No uploads, no tracking, no accounts required.",
-      "inLanguage": "en",
-      "publisher": {
-        "@id": "https://softf.tech/#organization"
-      },
-      "hasPart": [
+    <link rel="stylesheet" href="/src/output.css">
+    <script type="application/ld+json">
         {
-          "@type": "WebSite",
-          "@id": "https://tools.softf.tech/#website",
-          "url": "https://tools.softf.tech/",
-          "name": "SoftF.Tech Tools"
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://test.softf.tech/#website",
-          "url": "https://test.softf.tech/",
-          "name": "SoftF.Tech Hardware Tests"
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "@id": "https://softf.tech/#website",
+                    "url": "https://softf.tech/",
+                    "name": "SoftF.Tech",
+                    "description": "A technical ecosystem featuring privacy-focused browser tools, hardware testing suites, and a comprehensive portal for academic and professional software projects.",
+                    "inLanguage": "en",
+                    "publisher": {
+                        "@id": "https://softf.tech/#organization"
+                    },
+                    "hasPart": [
+                        {
+                            "@type": "WebSite",
+                            "@id": "https://tools.softf.tech/#website",
+                            "url": "https://tools.softf.tech/",
+                            "name": "SoftF.Tech Tools"
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https://test.softf.tech/#website",
+                            "url": "https://test.softf.tech/",
+                            "name": "SoftF.Tech Hardware Tests"
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https://projects.softf.tech/#website",
+                            "url": "https://projects.softf.tech/",
+                            "name": "SoftF.Tech Project Portal"
+                        }
+                    ]
+                },
+                {
+                    "@type": "Organization",
+                    "@id": "https://softf.tech/#organization",
+                    "name": "SoftF.Tech",
+                    "url": "https://softf.tech/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://softf.tech/android-chrome-512x512.png"
+                    },
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "contactType": "customer support",
+                        "url": "https://softf.tech/contact.html",
+                        "email": "contact@softf.tech",
+                        "availableLanguage": [
+                            "en"
+                        ]
+                    },
+                    "sameAs": [
+                        "https://github.com/Mayank170906",
+                        "https://www.linkedin.com/in/mayank170906/"
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://softf.tech/#organization",
-      "name": "SoftF.Tech",
-      "url": "https://softf.tech/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://softf.tech/android-chrome-512x512.png"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer support",
-        "url": "https://softf.tech/contact.html",
-        "email": "contact@softf.tech",
-        "availableLanguage": ["en"]
-      },
-      "sameAs": [
-        "https://github.com/Mayank170906",
-        "https://www.linkedin.com/in/mayank170906/"
-      ]
-    }
-  ]
-}
-</script>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do my files get uploaded to your servers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. All tools on softf.tech run completely in your browser. Your files are never uploaded, stored, or sent to any server."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are these tools free to use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All tools are 100% free with no hidden charges, no paywalls, and no subscriptions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is my data stored or tracked?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No tracking. No analytics scripts. No data collection. Your privacy is fully respected."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to create an account?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No account is required. You can use all tools instantly without signing up or logging in."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which browsers are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "softf.tech works on all modern browsers including Chrome, Edge, Firefox, Safari, and Brave."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I suggest new tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can suggest new tools or report issues via the Contact page. Community feedback drives development."
-      }
-    }
-  ]
-}
-</script>
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Do my files get uploaded to your servers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. All tools on softf.tech run completely in your browser. Your files are never uploaded, stored, or sent to any server."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are these tools free to use?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. All tools are 100% free with no hidden charges, no paywalls, and no subscriptions."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is my data stored or tracked?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No tracking. No analytics scripts. No data collection. Your privacy is fully respected."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do I need to create an account?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No account is required. You can use all tools instantly without signing up or logging in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which browsers are supported?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "softf.tech works on all modern browsers including Chrome, Edge, Firefox, Safari, and Brave."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can I suggest new tools?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "You can suggest new tools or report issues via the Contact page. Community feedback drives development."
+                    }
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>
 <header class="pt-28 relative z-50">
 
-  <div class="fixed top-0 inset-x-0 h-24 bg-gradient-to-r
+    <div class="fixed top-0 inset-x-0 h-24 bg-gradient-to-r
               from-primary/20 via-secondary/20 to-accent/20
               blur-2xl -z-10 pointer-events-none"
-       aria-hidden="true"></div>
+         aria-hidden="true"></div>
 
-  <nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50
+    <nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50
               w-[95%] max-w-7xl
               bg-base-100/70 backdrop-blur-xl
               border border-white/20
               shadow-xl rounded-2xl transition-all duration-300"
-       aria-label="Main Navigation">
+         aria-label="Main Navigation">
 
-    <div class="flex items-center justify-between px-6 py-3 md:px-8">
+        <div class="flex items-center justify-between px-6 py-3 md:px-8">
 
-      <a href="/"
-         class="text-2xl font-extrabold tracking-tight
+            <a href="/"
+               class="text-2xl font-extrabold tracking-tight
                 bg-gradient-to-r from-primary to-secondary
                 bg-clip-text text-transparent
                 hover:scale-110 transition duration-300"
-         aria-label="SoftF Tech Homepage">
-        softf.tech
-      </a>
+               aria-label="SoftF Tech Homepage">
+                softf.tech
+            </a>
 
-      <ul class="hidden md:flex gap-10 text-sm font-semibold list-none m-0 p-0">
-        <li>
-          <a href="/" class="relative group py-2" title="Return to Homepage">
-            Home
-            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-primary
+            <ul class="hidden md:flex gap-10 text-sm font-semibold list-none m-0 p-0">
+                <li>
+                    <a href="/" class="relative group py-2" title="Return to Homepage">
+                        Home
+                        <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-primary
                          group-hover:w-full transition-all duration-300"></span>
-          </a>
-        </li>
-        <li>
-          <a href="https://tools.softf.tech" class="relative group py-2" title="Access our suite of tools">
-            Tools
-            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-secondary
+                    </a>
+                </li>
+                <li>
+                    <a href="https://tools.softf.tech" class="relative group py-2" title="Access our suite of tools">
+                        Tools
+                        <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-secondary
                          group-hover:w-full transition-all duration-300"></span>
-          </a>
-        </li>
-        <li>
-          <a href="https://test.softf.tech" class="relative group py-2" title="Visit the Test Bench environment">
-            Test Bench
-            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-accent
+                    </a>
+                </li>
+                <li>
+                    <a href="https://test.softf.tech" class="relative group py-2"
+                       title="Visit the Test Bench environment">
+                        Test Bench
+                        <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-accent
                          group-hover:w-full transition-all duration-300"></span>
-          </a>
-        </li>
-        <li>
-          <a href="/about.html" class="relative group py-2" title="Learn more about SoftF Tech">
-            About
-            <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-primary
+                    </a>
+                </li>
+                <li>
+                    <a href="/about.html" class="relative group py-2" title="Learn more about SoftF Tech">
+                        About
+                        <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-primary
                          group-hover:w-full transition-all duration-300"></span>
-          </a>
-        </li>
-      </ul>
+                    </a>
+                </li>
+            </ul>
 
-      <div class="dropdown dropdown-end md:hidden">
+            <div class="dropdown dropdown-end md:hidden">
 
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle text-current" aria-label="Open Mobile Menu">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle text-current"
+                     aria-label="Open Mobile Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </div>
+
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-box w-52 border border-white/10 font-medium">
+                    <li><a href="/" class="hover:text-primary">Home</a></li>
+                    <li><a href="https://tools.softf.tech" class="hover:text-secondary">Tools</a></li>
+                    <li><a href="https://test.softf.tech" class="hover:text-accent">Test Bench</a></li>
+                    <li><a href="/about.html" class="hover:text-primary">About</a></li>
+                </ul>
+
+            </div>
+
         </div>
-
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-2xl bg-base-100/95 backdrop-blur-xl rounded-box w-52 border border-white/10 font-medium">
-          <li><a href="/" class="hover:text-primary">Home</a></li>
-          <li><a href="https://tools.softf.tech" class="hover:text-secondary">Tools</a></li>
-          <li><a href="https://test.softf.tech" class="hover:text-accent">Test Bench</a></li>
-          <li><a href="/about.html" class="hover:text-primary">About</a></li>
-        </ul>
-
-      </div>
-
-    </div>
-  </nav>
+    </nav>
 
 </header>
 <main class="max-w-7xl mx-auto px-6">
-  <!-- Hero Section -->
-<section class="py-32 max-w-[1400px] mx-auto px-4 flex flex-col items-center justify-center text-center space-y-8">
+    <!-- Hero Section -->
+    <section class="py-32 max-w-[1400px] mx-auto px-4 flex flex-col items-center justify-center text-center space-y-8">
 
-  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-base-200 border border-base-300 text-sm font-bold tracking-wide shadow-sm">
-    <span class="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-    100% Private & Local Processing
-  </div>
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-base-200 border border-base-300 text-sm font-bold tracking-wide shadow-sm">
+            <span class="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
+            100% Private & Local Processing
+        </div>
 
-  <h1 class="text-5xl md:text-7xl font-black leading-tight max-w-4xl tracking-tight">
-    Everyday Utilities, <br />
-    <span class="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+        <h1 class="text-5xl md:text-7xl font-black leading-tight max-w-4xl tracking-tight">
+            Everyday Utilities, <br/>
+            <span class="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
       Zero Compromises.
     </span>
-  </h1>
+        </h1>
 
-  <p class="text-lg md:text-xl opacity-80 max-w-2xl leading-relaxed">
-    A complete ecosystem of professional browser-based tools and hardware diagnostics. No installations, no server uploads, and absolute privacy.
-  </p>
+        <p class="text-lg md:text-xl opacity-80 max-w-2xl leading-relaxed">
+            A complete ecosystem of professional browser-based tools and hardware diagnostics. No installations, no
+            server uploads, and absolute privacy.
+        </p>
 
-  <div class="flex flex-col sm:flex-row gap-4 pt-4">
-    <a href="#tools" class="btn btn-primary btn-lg rounded-full px-8 hover:scale-105 transition-all shadow-lg shadow-primary/20">
-      Explore Web Tools
-    </a>
-    <a href="#tests" class="btn btn-outline btn-lg rounded-full px-8 hover:scale-105 transition-all">
-      Run Hardware Tests
-    </a>
-  </div>
+        <div class="flex flex-col sm:flex-row gap-4 pt-4">
+            <a href="#tools"
+               class="btn btn-primary btn-lg rounded-full px-8 hover:scale-105 transition-all shadow-lg shadow-primary/20">
+                Explore Web Tools
+            </a>
+            <a href="#tests" class="btn btn-outline btn-lg rounded-full px-8 hover:scale-105 transition-all">
+                Run Hardware Tests
+            </a>
+        </div>
 
-</section>
-<!--    sub-domain-->
-<!--tools-->
-  <section id="tools" class="grid lg:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
+    </section>
+    <!--    sub-domain-->
+    <!--tools-->
+    <section id="tools" class="grid lg:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
 
-  <div class="space-y-6 pr-4">
-    <h2 class="text-4xl md:text-6xl font-black leading-tight">
-      Free Online Tools for
-      <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+        <div class="space-y-6 pr-4">
+            <h2 class="text-4xl md:text-6xl font-black leading-tight">
+                Free Online Tools for
+                <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
         Everyday Work
       </span>
-    </h2>
+            </h2>
 
-    <p class="text-lg opacity-80 max-w-xl">
-      A complete collection of private, browser-based tools to edit PDFs,
-      compress images, generate QR codes, format JSON and more.
-      Everything runs locally — no uploads, no tracking.
-    </p>
+            <p class="text-lg opacity-80 max-w-xl">
+                A complete collection of private, browser-based tools to edit PDFs,
+                compress images, generate QR codes, format JSON and more.
+                Everything runs locally — no uploads, no tracking.
+            </p>
 
-    <a href="https://tools.softf.tech"
-       class="btn btn-primary btn-lg rounded-full hover:scale-110 transition-all shadow-lg">
-      Open Tools 🚀
-    </a>
+            <a href="https://tools.softf.tech"
+               class="btn btn-primary btn-lg rounded-full hover:scale-110 transition-all shadow-lg">
+                Open Tools 🚀
+            </a>
 
-    <p class="text-sm opacity-60 font-medium tracking-wide">
-      PDF • Image • Developer • Text tools
-    </p>
-  </div>
+            <p class="text-sm opacity-60 font-medium tracking-wide">
+                PDF • Image • Developer • Text tools
+            </p>
+        </div>
 
-  <div class="relative w-full ml-auto">
-    <div class="absolute -inset-2 bg-gradient-to-r from-primary/30 to-secondary/30 blur-2xl rounded-3xl"></div>
+        <div class="relative w-full ml-auto">
+            <div class="absolute -inset-2 bg-gradient-to-r from-primary/30 to-secondary/30 blur-2xl rounded-3xl"></div>
 
-    <div class="relative overflow-x-auto bg-base-100 rounded-3xl shadow-2xl border border-base-300">
-      <table class="table table-zebra table-sm md:table-md w-full text-center">
+            <div class="relative overflow-x-auto bg-base-100 rounded-3xl shadow-2xl border border-base-300">
+                <table class="table table-zebra table-sm md:table-md w-full text-center">
 
-        <thead>
-          <tr class="bg-base-200 text-base-content">
-            <th colspan="4" class="py-4 text-xl font-black border-b border-base-300">
-              tools.<span class="text-primary">softf</span>.tech
-            </th>
-          </tr>
-          <tr class="bg-base-200/50 text-base-content uppercase tracking-wider text-xs">
-            <th class="w-1/4">PDF</th>
-            <th class="w-1/4">Image</th>
-            <th class="w-1/4">Dev</th>
-            <th class="w-1/4">Text</th>
-          </tr>
-        </thead>
+                    <thead>
+                    <tr class="bg-base-200 text-base-content">
+                        <th colspan="4" class="py-4 text-xl font-black border-b border-base-300">
+                            tools.<span class="text-primary">softf</span>.tech
+                        </th>
+                    </tr>
+                    <tr class="bg-base-200/50 text-base-content uppercase tracking-wider text-xs">
+                        <th class="w-1/4">PDF</th>
+                        <th class="w-1/4">Image</th>
+                        <th class="w-1/4">Dev</th>
+                        <th class="w-1/4">Text</th>
+                    </tr>
+                    </thead>
 
-        <tbody class="text-sm">
+                    <tbody class="text-sm">
 
-          <tr class="hover">
-            <td><a href="https://tools.softf.tech/pdf/image-to-pdf/" class="link link-hover hover:text-primary">Image to PDF</a></td>
-            <td><a href="https://tools.softf.tech/image/compress/" class="link link-hover hover:text-secondary">Compress</a></td>
-            <td><a href="https://tools.softf.tech/dev/json/" class="link link-hover hover:text-accent">JSON</a></td>
-            <td><a href="https://tools.softf.tech/text/hash/" class="link link-hover hover:text-info">Hash Gen</a></td>
-          </tr>
+                    <tr class="hover">
+                        <td><a href="https://tools.softf.tech/pdf/image-to-pdf/"
+                               class="link link-hover hover:text-primary">Image to PDF</a></td>
+                        <td><a href="https://tools.softf.tech/image/compress/"
+                               class="link link-hover hover:text-secondary">Compress</a></td>
+                        <td><a href="https://tools.softf.tech/dev/json/"
+                               class="link link-hover hover:text-accent">JSON</a></td>
+                        <td><a href="https://tools.softf.tech/text/hash/" class="link link-hover hover:text-info">Hash
+                            Gen</a></td>
+                    </tr>
 
-          <tr class="hover">
-            <td><a href="https://tools.softf.tech/pdf/merge/" class="link link-hover hover:text-primary">Merge</a></td>
-            <td><a href="https://tools.softf.tech/image/convert/" class="link link-hover hover:text-secondary">Convert</a></td>
-            <td><a href="https://tools.softf.tech/dev/json-ld/" class="link link-hover hover:text-accent">JSON-LD</a></td>
-            <td><a href="https://tools.softf.tech/text/password/" class="link link-hover hover:text-info">Password Gen</a></td>
-          </tr>
+                    <tr class="hover">
+                        <td><a href="https://tools.softf.tech/pdf/merge/" class="link link-hover hover:text-primary">Merge</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/image/convert/"
+                               class="link link-hover hover:text-secondary">Convert</a></td>
+                        <td><a href="https://tools.softf.tech/dev/json-ld/" class="link link-hover hover:text-accent">JSON-LD</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/text/password/" class="link link-hover hover:text-info">Password
+                            Gen</a></td>
+                    </tr>
 
-          <tr class="hover">
-            <td><a href="https://tools.softf.tech/pdf/split/" class="link link-hover hover:text-primary">Split</a></td>
-            <td><a href="https://tools.softf.tech/image/resize/" class="link link-hover hover:text-secondary">Resize</a></td>
-            <td><a href="https://tools.softf.tech/dev/qr/" class="link link-hover hover:text-accent">QR Gen</a></td>
-            <td><a href="https://tools.softf.tech/text/markdown/" class="link link-hover hover:text-info">Markdown</a></td>
-          </tr>
+                    <tr class="hover">
+                        <td><a href="https://tools.softf.tech/pdf/split/" class="link link-hover hover:text-primary">Split</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/image/resize/"
+                               class="link link-hover hover:text-secondary">Resize</a></td>
+                        <td><a href="https://tools.softf.tech/dev/qr/" class="link link-hover hover:text-accent">QR
+                            Gen</a></td>
+                        <td><a href="https://tools.softf.tech/text/markdown/" class="link link-hover hover:text-info">Markdown</a>
+                        </td>
+                    </tr>
 
-          <tr class="hover">
-            <td><a href="https://tools.softf.tech/pdf/rotate/" class="link link-hover hover:text-primary">Rotate</a></td>
-            <td><a href="https://tools.softf.tech/image/crop/" class="link link-hover hover:text-secondary">Crop</a></td>
-            <td><a href="https://tools.softf.tech/dev/qr-scan/" class="link link-hover hover:text-accent">QR Scan</a></td>
-            <td><a href="https://tools.softf.tech/text/counter/" class="link link-hover hover:text-info">Word Count</a></td>
-          </tr>
+                    <tr class="hover">
+                        <td><a href="https://tools.softf.tech/pdf/rotate/" class="link link-hover hover:text-primary">Rotate</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/image/crop/" class="link link-hover hover:text-secondary">Crop</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/dev/qr-scan/" class="link link-hover hover:text-accent">QR
+                            Scan</a></td>
+                        <td><a href="https://tools.softf.tech/text/counter/" class="link link-hover hover:text-info">Word
+                            Count</a></td>
+                    </tr>
 
-          <tr class="hover">
-            <td><a href="https://tools.softf.tech/pdf/metadata/" class="link link-hover hover:text-primary">Metadata</a></td>
-            <td><a href="https://tools.softf.tech/image/exif/" class="link link-hover hover:text-secondary">EXIF</a></td>
-            <td><a href="https://tools.softf.tech/dev/base64/" class="link link-hover hover:text-accent">Base64</a></td>
-            <td><a href="https://tools.softf.tech/text/case/" class="link link-hover hover:text-info">Case Change</a></td>
-          </tr>
+                    <tr class="hover">
+                        <td><a href="https://tools.softf.tech/pdf/metadata/" class="link link-hover hover:text-primary">Metadata</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/image/exif/" class="link link-hover hover:text-secondary">EXIF</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/dev/base64/" class="link link-hover hover:text-accent">Base64</a>
+                        </td>
+                        <td><a href="https://tools.softf.tech/text/case/" class="link link-hover hover:text-info">Case
+                            Change</a></td>
+                    </tr>
 
-          <tr class="hover">
-            <td><a href="https://tools.softf.tech/pdf/watermark/" class="link link-hover hover:text-primary">Watermark</a></td>
-            <td><a href="https://tools.softf.tech/image/color-picker/" class="link link-hover hover:text-secondary">Color Picker</a></td>
-            <td><a href="https://tools.softf.tech/dev/url/" class="link link-hover hover:text-accent">URL Encode</a></td>
-            <td><a href="https://tools.softf.tech/dev/css-minify/" class="link link-hover hover:text-info">CSS Minify</a></td>
-          </tr>
+                    <tr class="hover">
+                        <td><a href="https://tools.softf.tech/pdf/watermark/"
+                               class="link link-hover hover:text-primary">Watermark</a></td>
+                        <td><a href="https://tools.softf.tech/image/color-picker/"
+                               class="link link-hover hover:text-secondary">Color Picker</a></td>
+                        <td><a href="https://tools.softf.tech/dev/url/" class="link link-hover hover:text-accent">URL
+                            Encode</a></td>
+                        <td><a href="https://tools.softf.tech/dev/css-minify/" class="link link-hover hover:text-info">CSS
+                            Minify</a></td>
+                    </tr>
 
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-<!--test-->
-  <section id="tests" class="grid md:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--test-->
+    <section id="tests" class="grid md:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
 
-  <div class="relative order-2 md:order-1 w-full max-w-md md:mr-auto">
-    <div class="absolute -inset-2 bg-gradient-to-r from-accent/30 to-primary/30 blur-2xl rounded-3xl"></div>
+        <div class="relative order-2 md:order-1 w-full max-w-md md:mr-auto">
+            <div class="absolute -inset-2 bg-gradient-to-r from-accent/30 to-primary/30 blur-2xl rounded-3xl"></div>
 
-    <div class="relative bg-base-100/80 backdrop-blur-xl border border-white/20 rounded-3xl shadow-xl p-8">
+            <div class="relative bg-base-100/80 backdrop-blur-xl border border-white/20 rounded-3xl shadow-xl p-8">
 
-      <h3 class="text-2xl font-black mb-6 border-b border-base-300 pb-4">
-        test.<span class="text-accent">softf</span>.tech
-      </h3>
+                <h3 class="text-2xl font-black mb-6 border-b border-base-300 pb-4">
+                    test.<span class="text-accent">softf</span>.tech
+                </h3>
 
-      <div class="grid grid-cols-1 gap-3">
-        <a href="https://test.softf.tech/keyboard-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
-          <span>Keyboard Test</span>
-          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
-        </a>
+                <div class="grid grid-cols-1 gap-3">
+                    <a href="https://test.softf.tech/keyboard-test/"
+                       class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+                        <span>Keyboard Test</span>
+                        <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+                    </a>
 
-        <a href="https://test.softf.tech/mouse-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
-          <span>Mouse Test</span>
-          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
-        </a>
+                    <a href="https://test.softf.tech/mouse-test/"
+                       class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+                        <span>Mouse Test</span>
+                        <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+                    </a>
 
-        <a href="https://test.softf.tech/display-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
-          <span>Display / Dead Pixel Test</span>
-          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
-        </a>
+                    <a href="https://test.softf.tech/display-test/"
+                       class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+                        <span>Display / Dead Pixel Test</span>
+                        <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+                    </a>
 
-        <a href="https://test.softf.tech/speaker-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
-          <span>Speaker Test</span>
-          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
-        </a>
+                    <a href="https://test.softf.tech/speaker-test/"
+                       class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+                        <span>Speaker Test</span>
+                        <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+                    </a>
 
-        <a href="https://test.softf.tech/speed-test/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
-          <span>Internet Speed Test</span>
-          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
-        </a>
+                    <a href="https://test.softf.tech/speed-test/"
+                       class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+                        <span>Internet Speed Test</span>
+                        <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+                    </a>
 
-        <a href="https://test.softf.tech/ip-lookup/" class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
-          <span>IP Address Lookup</span>
-          <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
-        </a>
-      </div>
+                    <a href="https://test.softf.tech/ip-lookup/"
+                       class="flex items-center justify-between p-3.5 rounded-xl bg-base-200/50 hover:bg-accent hover:text-accent-content transition-all font-medium group">
+                        <span>IP Address Lookup</span>
+                        <span class="opacity-0 group-hover:opacity-100 transition-opacity text-xl leading-none">→</span>
+                    </a>
+                </div>
 
-    </div>
-  </div>
+            </div>
+        </div>
 
-  <div class="space-y-6 order-1 md:order-2 pl-4">
+        <div class="space-y-6 order-1 md:order-2 pl-4">
 
-    <h2 class="text-4xl md:text-5xl font-black leading-tight">
-      Lightweight
-      <span class="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+            <h2 class="text-4xl md:text-5xl font-black leading-tight">
+                Lightweight
+                <span class="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
         Test Bench
       </span>
-    </h2>
+            </h2>
 
-    <p class="text-lg opacity-80 max-w-xl">
-      Test your keyboard, mouse, display, speakers and internet speed directly
-      in your browser. 100% client-side. No installs, no data sent to servers.
-    </p>
+            <p class="text-lg opacity-80 max-w-xl">
+                Test your keyboard, mouse, display, speakers and internet speed directly
+                in your browser. 100% client-side. No installs, no data sent to servers.
+            </p>
 
-    <a href="https://test.softf.tech"
-       class="btn btn-outline border-accent text-accent hover:bg-accent hover:border-accent hover:text-accent-content btn-lg rounded-full hover:scale-105 transition-all">
-      Open Test Bench
-    </a>
+            <a href="https://test.softf.tech"
+               class="btn btn-outline border-accent text-accent hover:bg-accent hover:border-accent hover:text-accent-content btn-lg rounded-full hover:scale-105 transition-all">
+                Open Test Bench
+            </a>
 
-    <p class="text-sm opacity-60 font-medium tracking-wide">
-      Hardware • Network • Diagnostics
-    </p>
+            <p class="text-sm opacity-60 font-medium tracking-wide">
+                Hardware • Network • Diagnostics
+            </p>
+        </div>
+
+    </section>
+    <section id="projects" class="grid lg:grid-cols-2 gap-12 items-center py-24 max-w-[1400px] mx-auto px-4">
+
+        <div class="space-y-6 pr-4">
+            <h2 class="text-4xl md:text-6xl font-black leading-tight">
+                Expert Software
+                <span class="bg-gradient-to-r from-secondary to-info bg-clip-text text-transparent">
+        Project Services
+      </span>
+            </h2>
+
+            <p class="text-lg opacity-80 max-w-xl">
+                Professional assistance for your academic and custom software projects.
+                From full-stack development to UML design and Viva preparation, we help you deliver excellence.
+            </p>
+
+            <a href="https://projects.softf.tech"
+               class="btn btn-secondary btn-lg rounded-full hover:scale-110 transition-all shadow-lg text-white">
+                Explore Projects 📂
+            </a>
+
+            <p class="text-sm opacity-60 font-medium tracking-wide uppercase">
+                Development • Documentation • Presentation • Support
+            </p>
+        </div>
+
+        <div class="relative w-full ml-auto">
+            <div class="absolute -inset-2 bg-gradient-to-r from-secondary/30 to-info/30 blur-2xl rounded-3xl"></div>
+
+            <div class="relative overflow-x-auto bg-base-100 rounded-3xl shadow-2xl border border-base-300">
+                <table class="table table-zebra table-sm md:table-md w-full text-center">
+
+                    <thead>
+                    <tr class="bg-base-200 text-base-content">
+                        <th colspan="3" class="py-4 text-xl font-black border-b border-base-300">
+                            projects.<span class="text-secondary">softf</span>.tech
+                        </th>
+                    </tr>
+                    <tr class="bg-base-200/50 text-base-content uppercase tracking-wider text-xs">
+                        <th class="w-1/3">Core Dev</th>
+                        <th class="w-1/3">Documentation</th>
+                        <th class="w-1/3">Preparation</th>
+                    </tr>
+                    </thead>
+
+                    <tbody class="text-sm">
+                    <tr class="hover">
+                        <td><a href="https://projects.softf.tech/services/full-project/"
+                               class="link link-hover hover:text-secondary">Full Project</a></td>
+                        <td><a href="https://projects.softf.tech/services/code-report/"
+                               class="link link-hover hover:text-info">Project Report</a></td>
+                        <td><a href="https://projects.softf.tech/services/viva-preparation/"
+                               class="link link-hover hover:text-secondary">Viva Prep</a></td>
+                    </tr>
+
+                    <tr class="hover">
+                        <td><a href="https://projects.softf.tech/services/source-code/"
+                               class="link link-hover hover:text-secondary">Source Code</a></td>
+                        <td><a href="https://projects.softf.tech/services/uml-diagram-design/"
+                               class="link link-hover hover:text-info">UML Design</a></td>
+                        <td><a href="https://projects.softf.tech/services/ppt-presentation/"
+                               class="link link-hover hover:text-secondary">PPT Design</a></td>
+                    </tr>
+
+                    <tr class="hover">
+                        <td><a href="https://projects.softf.tech/services/bug-fix/"
+                               class="link link-hover hover:text-secondary">Bug Fixing</a></td>
+                        <td><a href="https://projects.softf.tech/services/tech-conversion/"
+                               class="link link-hover hover:text-info">Tech Migration</a></td>
+                        <td><a href="https://projects.softf.tech/services/exam-notes/"
+                               class="link link-hover hover:text-secondary">Exam Notes</a></td>
+                    </tr>
+
+                    <tr class="hover">
+                        <td><a href="https://projects.softf.tech/services/project-upgrade/"
+                               class="link link-hover hover:text-secondary">Upgrades</a></td>
+                        <td><a href="https://projects.softf.tech/services/portfolio-project/"
+                               class="link link-hover hover:text-info">Portfolio Site</a></td>
+                        <td><a href="https://projects.softf.tech/services/complete-package/"
+                               class="link link-hover hover:text-secondary">Full Package</a></td>
+                    </tr>
+                    </tbody>
+
+                    <tfoot>
+                    <tr>
+                        <td colspan="3" class="py-4 bg-base-200/30">
+                            <a href="https://projects.softf.tech/portfolio/"
+                               class="text-xs font-bold uppercase link link-secondary">View Complete Portfolio →</a>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="py-10 max-w-[1200px] mx-auto px-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-auto">
+
+    <div class="md:col-span-2 p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <div class="flex items-center gap-4 mb-3">
+        <span class="text-4xl">🔒</span>
+        <h3 class="text-2xl font-black text-secondary uppercase italic">Privacy Tools</h3>
+      </div>
+      <p class="text-amber-500 font-medium leading-relaxed">Local-first PDF & data utilities. 100% browser-based processing with zero server uploads for maximum security.</p>
+    </div>
+
+    <div class="p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <span class="text-3xl mb-3 block">⌨️</span>
+      <h3 class="text-xl font-bold text-secondary uppercase">Peripherals</h3>
+      <p class="text-sm text-amber-500 font-medium mt-2">High-polling rate diagnostics for mechanical keyboards and mice.</p>
+    </div>
+
+    <div class="p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <span class="text-3xl mb-3 block">🖼️</span>
+      <h3 class="text-xl font-bold text-secondary uppercase">Image Lab</h3>
+      <p class="text-sm text-amber-500 font-medium mt-2">Browser-side optimization. Compress and convert with zero quality loss.</p>
+    </div>
+
+    <div class="md:col-span-2 p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <div class="flex items-center gap-4 mb-3">
+        <span class="text-4xl">💻</span>
+        <h3 class="text-2xl font-black text-secondary uppercase italic">Dev Toolkit</h3>
+      </div>
+      <p class="text-amber-500 font-medium leading-relaxed">JSON, QR, and Base64 engineering tools. Rapid, serverless processing for modern developer workflows.</p>
+    </div>
+
+    <div class="md:col-span-2 p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <div class="flex items-center gap-4 mb-3">
+        <span class="text-4xl">🚀</span>
+        <h3 class="text-2xl font-black text-secondary uppercase italic">Core Engineering</h3>
+      </div>
+      <p class="text-amber-500 font-medium leading-relaxed">Full-stack software development delivering modular, scalable, and industry-standard source code.</p>
+    </div>
+
+    <div class="p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <span class="text-3xl mb-3 block">📐</span>
+      <h3 class="text-xl font-bold text-secondary uppercase">Architecture</h3>
+      <p class="text-sm text-amber-500 font-medium mt-2">Professional UML design, SRS reports, and technical documentation.</p>
+    </div>
+
+    <div class="p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <span class="text-3xl mb-3 block">🌐</span>
+      <h3 class="text-xl font-bold text-secondary uppercase">Network</h3>
+      <p class="text-sm text-amber-500 font-medium mt-2">Advanced ping diagnostics and private IP geolocation mapping.</p>
+    </div>
+
+    <div class="md:col-span-2 p-8 rounded-3xl bg-base-200 border border-secondary/20 hover:border-secondary transition-all">
+      <div class="flex items-center gap-4 mb-3">
+        <span class="text-4xl">🎓</span>
+        <h3 class="text-2xl font-black text-secondary uppercase italic">Academic Lab</h3>
+      </div>
+      <p class="text-amber-500 font-medium leading-relaxed">Elite Viva preparation, exam notes, and complete academic project documentation support.</p>
+    </div>
+
+    <div class="md:col-span-3 p-6 rounded-3xl bg-base-300 border-t-4 border-secondary text-center">
+      <h3 class="text-lg font-bold text-secondary uppercase tracking-[0.3em]">SoftF.Tech Ecosystem</h3>
+      <p class="text-amber-500 text-xs font-mono mt-1">// ALL SYSTEMS FUNCTIONAL // DATA_LOCAL_ONLY</p>
+    </div>
+
   </div>
-
 </section>
 
-  <!-- Features Section -->
-  <section class="grid md:grid-cols-3 gap-8 py-20">
+    <!-- FAQ Section -->
+    <section class="max-w-4xl mx-auto px-6 py-24">
 
-    <div class="card bg-base-100 shadow-lg hover:shadow-2xl transition">
-      <div class="card-body">
-        <h3 class="card-title">🔒 Private</h3>
-        <p>All tools run locally in your browser. Your files never leave your device.</p>
-      </div>
-    </div>
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-black">
+                Frequently Asked Questions
+            </h2>
+            <p class="mt-3 text-lg opacity-70">
+                Everything you need to know about softf.tech and how it works.
+            </p>
+        </div>
 
-    <div class="card bg-base-100 shadow-lg hover:shadow-2xl transition">
-      <div class="card-body">
-        <h3 class="card-title">⚡ Fast</h3>
-        <p>No servers, no waiting. Instant results powered by client-side processing.</p>
-      </div>
-    </div>
+        <div class="space-y-4">
 
-    <div class="card bg-base-100 shadow-lg hover:shadow-2xl transition">
-      <div class="card-body">
-        <h3 class="card-title">💯 Free</h3>
-        <p>Completely free tools with no ads, no tracking, and no paywalls.</p>
-      </div>
-    </div>
+            <div class="collapse collapse-arrow bg-base-100 shadow-lg">
+                <input type="radio" name="faq" aria-label="Do my files get uploaded to your servers?" checked/>
+                <div class="collapse-title text-lg font-semibold">
+                    Do my files get uploaded to your servers?
+                </div>
+                <div class="collapse-content opacity-80">
+                    <p>
+                        No. All tools on softf.tech run completely in your browser.
+                        Your files are never uploaded, stored, or sent to any server.
+                    </p>
+                </div>
+            </div>
 
-  </section>
+            <div class="collapse collapse-arrow bg-base-100 shadow-lg">
+                <input type="radio" name="faq" aria-label="Are these tools free to use?"/>
+                <div class="collapse-title text-lg font-semibold">
+                    Are these tools free to use?
+                </div>
+                <div class="collapse-content opacity-80">
+                    <p>
+                        Yes. All tools are 100% free with no hidden charges, no paywalls,
+                        and no subscriptions.
+                    </p>
+                </div>
+            </div>
 
-<!-- FAQ Section -->
-<section class="max-w-4xl mx-auto px-6 py-24">
+            <div class="collapse collapse-arrow bg-base-100 shadow-lg">
+                <input type="radio" name="faq" aria-label="Is my data stored or tracked?"/>
+                <div class="collapse-title text-lg font-semibold">
+                    Is my data stored or tracked?
+                </div>
+                <div class="collapse-content opacity-80">
+                    <p>
+                        No tracking. No analytics scripts. No data collection.
+                        Your privacy is fully respected.
+                    </p>
+                </div>
+            </div>
 
-  <div class="text-center mb-12">
-    <h2 class="text-3xl md:text-4xl font-black">
-      Frequently Asked Questions
-    </h2>
-    <p class="mt-3 text-lg opacity-70">
-      Everything you need to know about softf.tech and how it works.
-    </p>
-  </div>
+            <div class="collapse collapse-arrow bg-base-100 shadow-lg">
+                <input type="radio" name="faq" aria-label="Do I need to create an account?"/>
+                <div class="collapse-title text-lg font-semibold">
+                    Do I need to create an account?
+                </div>
+                <div class="collapse-content opacity-80">
+                    <p>
+                        No account is required. You can use all tools instantly
+                        without signing up or logging in.
+                    </p>
+                </div>
+            </div>
 
-  <div class="space-y-4">
+            <div class="collapse collapse-arrow bg-base-100 shadow-lg">
+                <input type="radio" name="faq" aria-label="Which browsers are supported?"/>
+                <div class="collapse-title text-lg font-semibold">
+                    Which browsers are supported?
+                </div>
+                <div class="collapse-content opacity-80">
+                    <p>
+                        softf.tech works on all modern browsers including
+                        Chrome, Edge, Firefox, Safari, and Brave.
+                    </p>
+                </div>
+            </div>
 
-    <div class="collapse collapse-arrow bg-base-100 shadow-lg">
-      <input type="radio" name="faq" aria-label="Do my files get uploaded to your servers?" checked />
-      <div class="collapse-title text-lg font-semibold">
-        Do my files get uploaded to your servers?
-      </div>
-      <div class="collapse-content opacity-80">
-        <p>
-          No. All tools on softf.tech run completely in your browser.
-          Your files are never uploaded, stored, or sent to any server.
-        </p>
-      </div>
-    </div>
+            <div class="collapse collapse-arrow bg-base-100 shadow-lg">
+                <input type="radio" name="faq" aria-label="How can I suggest new tools?"/>
+                <div class="collapse-title text-lg font-semibold">
+                    How can I suggest new tools?
+                </div>
+                <div class="collapse-content opacity-80">
+                    <p>
+                        You can suggest new tools or report issues via the
+                        Contact page. Community feedback drives development.
+                    </p>
+                </div>
+            </div>
 
-    <div class="collapse collapse-arrow bg-base-100 shadow-lg">
-      <input type="radio" name="faq" aria-label="Are these tools free to use?" />
-      <div class="collapse-title text-lg font-semibold">
-        Are these tools free to use?
-      </div>
-      <div class="collapse-content opacity-80">
-        <p>
-          Yes. All tools are 100% free with no hidden charges, no paywalls,
-          and no subscriptions.
-        </p>
-      </div>
-    </div>
-
-    <div class="collapse collapse-arrow bg-base-100 shadow-lg">
-      <input type="radio" name="faq" aria-label="Is my data stored or tracked?" />
-      <div class="collapse-title text-lg font-semibold">
-        Is my data stored or tracked?
-      </div>
-      <div class="collapse-content opacity-80">
-        <p>
-          No tracking. No analytics scripts. No data collection.
-          Your privacy is fully respected.
-        </p>
-      </div>
-    </div>
-
-    <div class="collapse collapse-arrow bg-base-100 shadow-lg">
-      <input type="radio" name="faq" aria-label="Do I need to create an account?" />
-      <div class="collapse-title text-lg font-semibold">
-        Do I need to create an account?
-      </div>
-      <div class="collapse-content opacity-80">
-        <p>
-          No account is required. You can use all tools instantly
-          without signing up or logging in.
-        </p>
-      </div>
-    </div>
-
-    <div class="collapse collapse-arrow bg-base-100 shadow-lg">
-      <input type="radio" name="faq" aria-label="Which browsers are supported?" />
-      <div class="collapse-title text-lg font-semibold">
-        Which browsers are supported?
-      </div>
-      <div class="collapse-content opacity-80">
-        <p>
-          softf.tech works on all modern browsers including
-          Chrome, Edge, Firefox, Safari, and Brave.
-        </p>
-      </div>
-    </div>
-
-    <div class="collapse collapse-arrow bg-base-100 shadow-lg">
-      <input type="radio" name="faq" aria-label="How can I suggest new tools?" />
-      <div class="collapse-title text-lg font-semibold">
-        How can I suggest new tools?
-      </div>
-      <div class="collapse-content opacity-80">
-        <p>
-          You can suggest new tools or report issues via the
-          Contact page. Community feedback drives development.
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
+        </div>
+    </section>
 
 </main>
 
@@ -560,7 +744,8 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
 
             <div class="md:col-span-4 flex flex-col gap-4">
-                <a href="/" class="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent w-fit">
+                <a href="/"
+                   class="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent w-fit">
                     softf.tech
                 </a>
                 <p class="text-base-content leading-relaxed max-w-xs font-medium">
@@ -571,32 +756,58 @@
             <div class="md:col-span-2 md:col-start-7">
                 <p class="font-black text-base-content mb-4 tracking-widest uppercase text-xs">Explore</p>
                 <ul class="flex flex-col gap-3 text-sm font-medium">
-                    <li><a href="/" class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Home</a></li>
-                    <li><a href="https://tools.softf.tech" class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Tools</a></li>
-                    <li><a href="https://test.softf.tech" class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Test Bench</a></li>
+                    <li><a href="/"
+                           class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Home</a>
+                    </li>
+                    <li><a href="https://tools.softf.tech"
+                           class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Tools</a>
+                    </li>
+                    <li><a href="https://test.softf.tech"
+                           class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Test
+                        Bench</a></li>
                 </ul>
             </div>
 
             <div class="md:col-span-2">
                 <p class="font-black text-base-content mb-4 tracking-widest uppercase text-xs">Legal</p>
                 <ul class="flex flex-col gap-3 text-sm font-medium">
-                    <li><a href="/privacy.html" class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Privacy</a></li>
-                    <li><a href="/terms.html" class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Terms</a></li>
-                    <li><a href="/contact.html" class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Contact</a></li>
+                    <li><a href="/privacy.html"
+                           class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Privacy</a>
+                    </li>
+                    <li><a href="/terms.html"
+                           class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Terms</a>
+                    </li>
+                    <li><a href="/contact.html"
+                           class="hover:text-primary hover:translate-x-1 transition-all duration-300 inline-block">Contact</a>
+                    </li>
                 </ul>
             </div>
 
             <div class="md:col-span-2">
                 <p class="font-black text-base-content mb-4 tracking-widest uppercase text-xs">Connect</p>
                 <div class="flex gap-3">
-                    <a href="https://github.com/Mayank170906" target="_blank" rel="noopener noreferrer" aria-label="View Mayank's GitHub profile" class="group p-2.5 rounded-full bg-base-content/5 border border-white/5 hover:bg-primary hover:border-primary hover:text-white hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/40 transition-all duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="text-base-content group-hover:text-white transition-colors"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    <a href="https://github.com/Mayank170906" target="_blank" rel="noopener noreferrer"
+                       aria-label="View Mayank's GitHub profile"
+                       class="group p-2.5 rounded-full bg-base-content/5 border border-white/5 hover:bg-primary hover:border-primary hover:text-white hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/40 transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                             fill="currentColor" class="text-base-content group-hover:text-white transition-colors">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
                     </a>
-                    <a href="https://www.linkedin.com/in/mayank170906/" target="_blank" rel="noopener noreferrer" aria-label="View Mayank's LinkedIn profile" class="group p-2.5 rounded-full bg-base-content/5 border border-white/5 hover:bg-[#0077b5] hover:border-[#0077b5] hover:text-white hover:-translate-y-1 hover:shadow-lg hover:shadow-[#0077b5]/40 transition-all duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="text-base-content group-hover:text-white transition-colors"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    <a href="https://www.linkedin.com/in/mayank170906/" target="_blank" rel="noopener noreferrer"
+                       aria-label="View Mayank's LinkedIn profile"
+                       class="group p-2.5 rounded-full bg-base-content/5 border border-white/5 hover:bg-[#0077b5] hover:border-[#0077b5] hover:text-white hover:-translate-y-1 hover:shadow-lg hover:shadow-[#0077b5]/40 transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                             fill="currentColor" class="text-base-content group-hover:text-white transition-colors">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
                     </a>
-                    <a href="mailto:contact@softf.tech" aria-label="Send an email to softf.tech" class="group p-2.5 rounded-full bg-base-content/5 border border-white/5 hover:bg-accent hover:border-accent hover:text-white hover:-translate-y-1 hover:shadow-lg hover:shadow-accent/40 transition-all duration-300">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="text-base-content group-hover:text-white transition-colors"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                    <a href="mailto:contact@softf.tech" aria-label="Send an email to softf.tech"
+                       class="group p-2.5 rounded-full bg-base-content/5 border border-white/5 hover:bg-accent hover:border-accent hover:text-white hover:-translate-y-1 hover:shadow-lg hover:shadow-accent/40 transition-all duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                             fill="currentColor" class="text-base-content group-hover:text-white transition-colors">
+                            <path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/>
+                        </svg>
                     </a>
                 </div>
             </div>
